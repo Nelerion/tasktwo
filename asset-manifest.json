@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tasktwo/static/css/main.94a2fdbc.css",
+    "main.js": "/tasktwo/static/js/main.9c2c8a7d.js",
+    "static/js/787.f06850df.chunk.js": "/tasktwo/static/js/787.f06850df.chunk.js",
+    "static/media/red.png": "/tasktwo/static/media/red.868b83e6cae68e8225cf.png",
+    "static/media/purple.png": "/tasktwo/static/media/purple.35e64cdf10d6de720df0.png",
+    "static/media/bgMobile.png": "/tasktwo/static/media/bgMobile.163ffe1d0c77a7d54cba.png",
+    "static/media/red_ball.png": "/tasktwo/static/media/red_ball.533fdf9a9c46e70185c2.png",
+    "static/media/icomoon.svg?c2thk3": "/tasktwo/static/media/icomoon.8a88d7c58c49cb799f07.svg",
+    "static/media/icomoon.eot?c2thk3": "/tasktwo/static/media/icomoon.54894b46d70fdb9a3618.eot",
+    "static/media/icomoon.woff?c2thk3": "/tasktwo/static/media/icomoon.e8aa8b324bd7384ab5f6.woff",
+    "static/media/icomoon.ttf?c2thk3": "/tasktwo/static/media/icomoon.fb016b2b6fbbecf9f79b.ttf",
+    "static/media/purple_ball.svg": "/tasktwo/static/media/purple_ball.5183c75bdfdc477e9148.svg",
+    "index.html": "/tasktwo/index.html",
+    "main.94a2fdbc.css.map": "/tasktwo/static/css/main.94a2fdbc.css.map",
+    "main.9c2c8a7d.js.map": "/tasktwo/static/js/main.9c2c8a7d.js.map",
+    "787.f06850df.chunk.js.map": "/tasktwo/static/js/787.f06850df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94a2fdbc.css",
+    "static/js/main.9c2c8a7d.js"
+  ]
+}
