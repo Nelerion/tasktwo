@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/header/header';
+import styled from 'styled-components';
+import Main from './components/main/main';
+import Footer from './components/footer/footer';
+import { devices } from './other/query';
 
+export const Container = styled.div`
+  max-width: 1157px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+  @media ${devices.mobileL} {
+    padding:0;
+  }
+`
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Main/>
+      <Footer/>
     </div>
   );
 }

@@ -1,13 +1,100 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+@font-face {
+  font-family: "icomoon";
+  src: url("./other/fontsIcon/fonts/icomoon.eot?c2thk3");
+  src: url("./other/fontsIcon/fonts/icomoon.eot?c2thk3#iefix")
+      format("embedded-opentype"),
+    url("./other/fontsIcon/fonts/icomoon.ttf?c2thk3") format("truetype"),
+    url("./other/fontsIcon/fonts/icomoon.woff?c2thk3") format("woff"),
+    url("./other/fontsIcon/fonts/icomoon.svg?c2thk3#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.icon-logo_welbex:before {
+  content: "\e900";
+  color: #e4e5ea;
+}
+.icon-telegram:before {
+  content: "\e901";
+  color: #e4e5ea;
+}
+.icon-viber:before {
+  content: "\e902";
+  color: #e4e5ea;
+}
+.icon-whatsapp:before {
+  content: "\e903";
+  color: #e4e5ea;
+}
+
+//*------------------------------------------------------------------------------------*//
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", "sans-serif";
+  background: url("./image/bg/red.png") no-repeat,
+    url("./image/bg/purple.png") 50% 0% no-repeat,
+    url("./image/bg/purple_ball.svg") 64% 0% no-repeat,
+    url("./image/bg/red_ball.png") 37.5% 8.5% no-repeat,
+    url("./image/bg/red_ball_small.png") 61.5% 58% no-repeat;
+  background-color: #0e1014;
+  z-index: 1000;
+}
+
+a {
+  text-decoration: none;
+  color: #e4e5ea;
+  font-family: "Inter";
+  font-size: calc(10px + 5 * (100vw / 1157));
+}
+
+li {
+  list-style-type: none;
+}
+p {
+  color: #e4e5ea;
+}
+address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e4e5ea;
+  font-style: normal;
+}
+
+@media (max-width: 425px) {
+  body {
+    background-image: none;
+  }
+}
+
+html{
+  overflow-x: hidden;
 }
