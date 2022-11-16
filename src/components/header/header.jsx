@@ -1,4 +1,4 @@
-import logo from "../../image/logo_welbex.svg";
+import logo from "../../image/logo_welbex.png";
 import { Container } from "../../App";
 
 import {
